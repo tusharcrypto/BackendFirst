@@ -2,9 +2,11 @@
   "name": "firstbackend",
   "version": "1.0.0",
   "description": "learning about backed how to setup profesional backed",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
@@ -12,5 +14,8 @@
     "javascript"
   ],
   "author": "Tushar Wankhede",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
