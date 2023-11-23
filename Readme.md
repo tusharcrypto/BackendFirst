@@ -1,0 +1,1 @@
+# this is about learning backed from scratch from hitesh sir
