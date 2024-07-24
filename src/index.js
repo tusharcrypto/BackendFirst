@@ -13,7 +13,7 @@ connectDB().then(()=>{
     console.log("Server is listning on port",process.env.PORT);
   })
 }).catch((error)=>{
-  console.error("Connection failed due to some error !!",error)
+  console.error("Connection failed due to some went wrong check the error !!",error)
 })
 
 
